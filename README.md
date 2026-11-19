@@ -12,6 +12,7 @@ Design and print a PCB to test the functionality of different types of servos fo
 - "create a pcb board that outputs a pwm signal that has .5-2.5ms high period (just like intro project) that is manually controlled by potentiometer"
 
 PCB schematic and layout designed using KiCAD V10.0
+
 MCU programmed using STM32CubeIDE in C
 
 # Capabilities
@@ -21,8 +22,8 @@ MCU programmed using STM32CubeIDE in C
 - Testing mode control:
   - Manual potentiometer sweep
   - Automatic sweep, potentiometer speed control
-  - _ degree step increment, potentiometer speed control
-  - _____
+  - X degree step increment, potentiometer speed control
+  - WIP
   
 - 12V, 8.4V, 7.4V, 6V, 5V, 3V3 voltage outputs
   - 3/4 of each, two 12V outputs. 16/22 outputs total
