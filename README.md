@@ -1,39 +1,39 @@
-# Servo Testbed Project
+# Robosub Electrical 2027
+Electrical design work for the 2027 RoboSub Competition
 
-Team members:
-- Jayden
-- Aleks
-- Dwayne
-- Cason
+## Subs
 
-# Project Overview
+### Zenith
+Projects:
+- Microconotrller Board
+- Power Board
+- LED Board
 
-Design and print a PCB to test the functionality of different types of servos for the SDSU Mechatronics Club during the 2026 Fall semester
-- "create a pcb board that outputs a pwm signal that has .5-2.5ms high period (just like intro project) that is manually controlled by potentiometer"
+### Sion
+Projects:
+- Microconotrller Board
+- Power Board
+- LED Board
 
-PCB schematic and layout designed using KiCAD V10.0
+## Side Projects
+Projects:
+- Boost Converter
+- Buck Converter
+- Servo Test Bed
 
-MCU programmed using STM32CubeIDE in C
+## Contributing 
+1.) Fork this repository. 
 
-# Capabilities
+2.) Name the repository your project name.
 
-- STM32F103C8T6 controlled
+3.) Add your group mates as collaborators.
 
-- Testing mode control:
-  - Manual potentiometer sweep
-  - Automatic sweep, potentiometer speed control
-  - X degree step increment, potentiometer speed control
-  - WIP
-  
-- 12V, 8.4V, 7.4V, 6V, 5V, 3V3 voltage outputs
-  - 3/4 of each, two 12V outputs. 16/22 outputs total
-  - reverse polarity protection up to (insert pmos ratings)
+4.) **Do not delete or modify existing files.** 
 
-- Status display
-  - Current draw
-  - Expected output angle
-  - Potentiometer angle
-  - PWM data (duty cycle, frequency)
+5.) Make a new folder in the main branch of your fork with the project name. **Have all your work within ONE folder!**
 
-- 2 DC motor outputs
-  - CAN control
+6.) Add sub folders according to their purpose (documentation, kicad files, ltspice files, etc).
+
+7.) When finished, sync your fork and make a pull request, your work will be reviewed and merged when verified. 
+- **Syncing will only add what is new from the parent repo, it will not delete your previous work. However if you do not sync your fork, the pull request will be closed and you will be asked to resubmit after syncing, since any files that exist on the parent repo but do not exist on your fork will be deleted on the main repo with the merge** 
+- **Make commits with version control in-mind, do not worry about having old schematic files, documentation, etc since those are already saved with previous commits.**
